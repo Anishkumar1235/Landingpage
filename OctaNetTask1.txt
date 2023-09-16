@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylish Landing Page</title>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .hero-section {
+      height:cover;
+                   background-image: url(Octk.png);
+      background-size: 100px;
+      background-position: right;
+      justify-content: right;
+      padding-top: 50px;
+    }
+
+    .hero-text {
+      color: rgb(2, 56, 7);
+      font-size: 48px;
+    }
+
+    .about-section {
+      padding: 20px;
+      background-color: #94cdc9;
+    }
+
+    .about-text {
+      font-size: 16px;
+    }
+
+    .contact-section {
+      padding: 20px;
+      background-color: #93a25c;
+    }
+
+    .contact-form {
+      margin: 0 auto;
+      width: 50%;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .contact-form button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #000;
+      color: rgb(162, 148, 99);
+    }
+
+    .footer {
+      padding: 20px;
+      background-color: #000;
+      color: rgb(132, 194, 140);
+      text-align: center;
+    }
+
+    /* CSS styling for a stylish landing page */
+
+    .hero-text {
+      text-shadow: 0 0 10px black;
+    }
+
+    .about-section {
+      border-radius: 10px;
+    }
+
+    .contact-form {
+      border: 1px solid black;
+      padding: 20px;
+    }
+
+    .footer {
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero-section">
+      <div class="hero-text">
+        <h1>Web Development Internship</h1>
+        <h3>OctaNet Bhubaneswar, India</h3>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="column">
+        <h2>Introduction</h2>
+        <p class="about-text">My  web developer internship program offers a hands-on experience in building cutting-edge web applications. The program lasts for one months and provides a comprehensive understanding of web development principles and practices.</p>
+        <h2>Highlights</h2>
+  <ul class="highlight">
+    <li>Mentorship from industry experts</li>
+    <li>Opportunity to work in Individual</li>
+    <li>Real-world project experience in web development</li>
+    <li>Enhance your skills in HTML, CSS, JavaScript, and more</li>
+      </div>
+      <h2>Qualifications</h2>
+      <p>Parsuing B-tech from " TRIDENT ACADEMY OF TECHNOLOGY,BHUBANESWAR-751024</p>
+      <ul>
+        <li>Proficiency in Web development</li>
+        <li>Problem-solving skills and attention to detail</li>
+      </ul>
+      <p>Mail id:- <a href="anishkumar5080@gmail.com"></a>anishkumar5080@gmail.com</p>
+      <p>Contact us at:-<a href="8271093372">8271093372</p>
+        
+    </section>
+
+    <section class="contact-section">
+      <div class="column">
+        <h2>Contact Me</h2>
+        <form action="#">
+          <input type="name" name="name" placeholder="Your Name">
+          <input type="email" name="email" placeholder="Your email">
+          <input type="text" number="number" placeholder="Your number">
+          <br>
+          <input type="text" Address="Address" placeholder="Your Address">
+          <input type="text" pin="pincode" placeholder="Your pincode">
+          <br>
+          <br>
+          <textarea name="message" placeholder="Your message"></textarea>
+          <br>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright &copy; 2023 [Anish Kumar]</p>
+    </footer>
+  </div>
+</body>
+</html>
